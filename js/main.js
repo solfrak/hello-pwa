@@ -61,4 +61,5 @@ function notification() {
     body: "YOOOOOOOOOO les notifications"
   };
   swRegistration.showNotification("PWA", options);
+  console.log("notif");
 }
